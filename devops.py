@@ -1,9 +1,5 @@
-def pro_count():
- 	if(i=/n-1):
-		for i in range(n)
-			count(i=0;i>0;i++)
-	else:
-return
-if__main__="__name__";
-n=len(file);
-print(pro_count):
+def count_lines(file_path):
+    with open(file_path, 'r') as file:
+        return sum(1 for _ in file)
+
+print(count_lines("test.py"))
